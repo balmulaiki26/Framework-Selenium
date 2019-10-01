@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AliBaba/AliBaba.iml" filepath="$PROJECT_DIR$/AliBaba/AliBaba.iml" />
       <module fileurl="file://$PROJECT_DIR$/Expedia/Expedia.iml" filepath="$PROJECT_DIR$/Expedia/Expedia.iml" />
       <module fileurl="file://$PROJECT_DIR$/Generic/Generic.iml" filepath="$PROJECT_DIR$/Generic/Generic.iml" />
     </modules>
