@@ -11,8 +11,8 @@
     <modules>
         <module>Generic</module>
         <module>Expedia</module>
+        <module>AliBaba</module>
     </modules>
-
     <dependencyManagement>
 
         <dependencies>
@@ -68,4 +68,6 @@
         </dependencies>
 
     </dependencyManagement>
+
+
 </project>

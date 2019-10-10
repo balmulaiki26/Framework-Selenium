@@ -6,8 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="FrameworkSelenium" />
+        <module name="Generic" />
+        <module name="Expedia" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AliBaba" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>
