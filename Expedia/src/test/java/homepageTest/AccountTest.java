@@ -6,8 +6,8 @@ import org.testng.annotations.Test;
 public class AccountTest extends Account {
 
     @Test
-    public void clickOnAccount() {
-        super.clickOnAccount();
+    public void clickOnSignIn() {
+        super.clickOnSignIn();
     }
 
     @Test
@@ -16,4 +16,4 @@ public class AccountTest extends Account {
     }
 }
 
-}
+
