@@ -274,4 +274,6 @@ public class CommonAPI {
     }
 
 
+    public void validateInvestingDisplayed() {
+    }
 }

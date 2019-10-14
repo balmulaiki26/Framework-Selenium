@@ -1,4 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b89220a3-8846-4436-be2f-095f05cf67bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Framework-Selenium-master/CitiBank/CitiBank.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Framework-Selenium-master/CitiBank/Extent-Report/ExtentReport.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Framework-Selenium-master/CitiBank/screenshots/testDropDown (10.11.2019-21" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Framework-Selenium-master/CitiBank/src/main/java/homepage/DragNDrop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Framework-Selenium-master/CitiBank/src/main/java/homepage/DropDownMouseHover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Framework-Selenium-master/CitiBank/src/main/java/homepage/HomePageLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Framework-Selenium-master/CitiBank/src/main/java/homepage/POM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Framework-Selenium-master/CitiBank/src/main/java/homepage/SearchOnElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Framework-Selenium-master/CitiBank/src/test/java/homepagetest/DragNDropTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Framework-Selenium-master/CitiBank/src/test/java/homepagetest/DropDownMouseHoverTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Framework-Selenium-master/CitiBank/src/test/java/homepagetest/HomePageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Framework-Selenium-master/CitiBank/src/test/java/homepagetest/InvestingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Framework-Selenium-master/CitiBank/src/test/java/homepagetest/POM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Framework-Selenium-master/CitiBank/src/test/java/homepagetest/SearchOnElementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Framework-Selenium-master/CitiBank/src/test/java/homepagetest/SmokeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Framework-Selenium-master/CitiBank/src/test/resources/CitiRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework-Selenium-master/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Framework-Selenium-master/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework-Selenium-master/Generic/target/classes/base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Framework-Selenium-master/Generic/target/classes/base/CommonAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Framework-Selenium-master/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Framework-Selenium-master/pom.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="dedicatedModuleDir" value="C:\Users\jahir\Downloads\Framework-Selenium-master" />
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1Rzgd6dnZmkwc6icJEcB2yDec3q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Framework-Selenium-master/CitiBank" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="homepagetest" />
+      <recent name="homepage" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jahir\Downloads\Framework-Selenium-master\Framework-Selenium-master\CitiBank" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="C:/Users/jahir/Downloads/Framework-Selenium-master/Framework-Selenium-master/CitiBank/src/test/resources/CitiRunner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="CitiBank" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/Framework-Selenium-master/CitiBank/src/test/resources/CitiRunner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/jahir/Downloads/Framework-Selenium-master/Framework-Selenium-master/CitiBank/src/test/resources/CitiRunner.xml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b89220a3-8846-4436-be2f-095f05cf67bb" name="Default Changelist" comment="" />
+      <created>1570675422761</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570675422761</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
 </project>
