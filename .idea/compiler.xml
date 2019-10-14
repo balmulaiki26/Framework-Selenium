@@ -12,6 +12,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="AliBaba" target="1.5" />
+      <module name="Spirit" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

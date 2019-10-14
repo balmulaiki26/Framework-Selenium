@@ -7,7 +7,7 @@ import report.TestLogger;
 public class Account extends CommonAPI {
 
 
-    public void clickOnAccount() {
+    public void clickOnSignIn() {
         clickOnElementByXpath("//button[@id='header-account-menu']");
         sleepFor(5);
         clickOnElementByXpath("//a[@id='account-signin']");
