@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b89220a3-8846-4436-be2f-095f05cf67bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Framework-Selenium-master/CitiBank/CitiBank.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Framework-Selenium-master/CitiBank/Extent-Report/ExtentReport.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Framework-Selenium-master/CitiBank/screenshots/testDropDown (10.11.2019-21" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Framework-Selenium-master/CitiBank/src/main/java/homepage/DragNDrop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Framework-Selenium-master/CitiBank/src/main/java/homepage/DropDownMouseHover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Framework-Selenium-master/CitiBank/src/main/java/homepage/HomePageLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Framework-Selenium-master/CitiBank/src/main/java/homepage/POM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Framework-Selenium-master/CitiBank/src/main/java/homepage/SearchOnElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Framework-Selenium-master/CitiBank/src/test/java/homepagetest/DragNDropTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Framework-Selenium-master/CitiBank/src/test/java/homepagetest/DropDownMouseHoverTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Framework-Selenium-master/CitiBank/src/test/java/homepagetest/HomePageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Framework-Selenium-master/CitiBank/src/test/java/homepagetest/InvestingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Framework-Selenium-master/CitiBank/src/test/java/homepagetest/POM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Framework-Selenium-master/CitiBank/src/test/java/homepagetest/SearchOnElementTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Framework-Selenium-master/CitiBank/src/test/java/homepagetest/SmokeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Framework-Selenium-master/CitiBank/src/test/resources/CitiRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Framework-Selenium-master/Generic/src/main/java/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/Framework-Selenium-master/Generic/src/main/java/base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Framework-Selenium-master/Generic/target/classes/base/CommonAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/Framework-Selenium-master/Generic/target/classes/base/CommonAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Framework-Selenium-master/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Framework-Selenium-master/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b89220a3-8846-4436-be2f-095f05cf67bb" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
