@@ -14,7 +14,7 @@
 
     <test name="Automation tests">
         <classes>
-            <class name="homepageTest.AccountTest"/>
+            <class name="homepageTest.HomePagePOMTest"/>
         </classes>
     </test>
 </suite>

@@ -12,6 +12,9 @@
         <module>Generic</module>
         <module>Expedia</module>
         <module>Spirit</module>
+        <module>Bestbuy</module>
+        <module>CitiBank</module>
+        <module>CitiBank</module>
     </modules>
     <dependencyManagement>
 
