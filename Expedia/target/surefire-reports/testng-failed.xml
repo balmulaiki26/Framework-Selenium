@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Selenium Test Suite]">
+  <parameter name="cloud" value="false"/>
+  <parameter name="envName" value="saucelabs"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="77.0"/>
+  <parameter name="url" value="https://www.Expedia.com"/>
+  <parameter name="platform" value="mac"/>
+  <test thread-count="5" verbose="0" name="Automation tests(failed)">
+    <classes>
+      <class name="homepageTest.HomePagePOMTest">
+        <methods>
+          <include name="Validation"/>
+          <include name="afterEachTestMethod"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+          <include name="setupDriver"/>
+          <include name="startExtent"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- homepageTest.HomePagePOMTest -->
+    </classes>
+  </test> <!-- Automation tests(failed) -->
+</suite> <!-- Failed suite [Selenium Test Suite] -->

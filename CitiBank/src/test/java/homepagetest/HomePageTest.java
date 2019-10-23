@@ -15,4 +15,7 @@ public class HomePageTest extends CommonAPI {
 
     public void validateInvestingClickAble() {
     }
+
+    public void validateInvestingDisplayed() {
+    }
 }
