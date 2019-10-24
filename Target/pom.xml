@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>Expedia</artifactId>
+    <artifactId>CNN</artifactId>
 
     <dependencies>
         <dependency>
@@ -36,7 +36,7 @@
                 <version>3.0.0-M3</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFiles>src/test/resources/ExpediaRunner.xml</suiteXmlFiles>
+                        <suiteXmlFiles>src/test/resources/CNNRunner.xml</suiteXmlFiles>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>

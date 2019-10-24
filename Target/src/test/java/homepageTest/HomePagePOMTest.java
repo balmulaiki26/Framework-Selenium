@@ -8,7 +8,6 @@ public class HomePagePOMTest extends HomePagePOM {
     @Test
     public void Validation(){
         ValidateContactClickAble();
-        ValidateContactUsDisplayed();
-    }
+ValidatePoliticsDisplayed();    }
 
 }
