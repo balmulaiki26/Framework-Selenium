@@ -9,14 +9,14 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>CNN</artifactId>
-
+    <artifactId>Target</artifactId>
     <dependencies>
+
         <dependency>
             <groupId>com.peoplentech</groupId>
             <artifactId>Generic</artifactId>
             <version>1.0-SNAPSHOT</version>
-
+            <scope>compile</scope>
         </dependency>
     </dependencies>
     <build>
@@ -36,10 +36,11 @@
                 <version>3.0.0-M3</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFiles>src/test/resources/CNNRunner.xml</suiteXmlFiles>
+                        <suiteXmlFiles>src/test/resources/CitiRunner.xml</suiteXmlFiles>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
         </plugins>
     </build>
+
 </project>

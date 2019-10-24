@@ -42,7 +42,7 @@
                 <version>3.0.0-M3</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFiles>src/test/resources/ExpediaRunner.xml</suiteXmlFiles>
+                        <suiteXmlFiles>src/test/resources/bestbuyRuner.xml</suiteXmlFiles>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>

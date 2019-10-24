@@ -1,9 +1,0 @@
-report/TestLogger.class
-base/CommonAPI.class
-utility/ExcelReader.class
-databases/ConnectToSqlDB.class
-report/ExtentTestManager.class
-databases/ConnectToMongoDB.class
-databases/Student.class
-databases/User.class
-report/ExtentManager.class
