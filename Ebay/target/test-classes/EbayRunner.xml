@@ -5,14 +5,15 @@
 
     <parameter name="cloud" value="false"/>
     <parameter name="envName" value="browserstack"/>
+    <parameter name="envName" value="saucelabs"/>
     <parameter name="browser" value="chrome"/>
     <parameter name="browserVersion" value="77.0"/>
-    <parameter name="url" value="https://www.Target.com"/>
+    <parameter name="url" value="https://www.ebay.com"/>
     <parameter name="platform" value="mac"/>
 
     <test name="Automation tests">
         <classes>
-            <class name="homepagetest.test"/>
+            <class name="homepagetest.HomePageTest"/>
         </classes>
     </test>
 </suite>
