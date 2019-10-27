@@ -3,6 +3,7 @@ package homepage;
 import base.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
 import report.TestLogger;
 
 public class HomePage extends CommonAPI {
@@ -67,4 +68,10 @@ public class HomePage extends CommonAPI {
 
     }
 
+        public void testDropDown() {
+            WebElement element = getElement("//select[@id='gh-cat']");
+            Select select = new Select(element);
+            select.selectByIndex(3);
+            sleepFor(5);
+        }
 }

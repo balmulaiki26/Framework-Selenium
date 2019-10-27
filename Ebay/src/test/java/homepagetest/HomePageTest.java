@@ -29,4 +29,9 @@ public class HomePageTest extends HomePage {
     public void testMouseHoverFashion() {
         super.testMouseHoverFashion();
     }
+
+    @Test
+    public void testDropDown() {
+        super.testDropDown();
+    }
 }

@@ -14,15 +14,14 @@ public class HomePage extends CommonAPI {
 
 
     public void clickOnSignIn() {
-        /*WebElement element = getElement("//a[@id='account']//span[@class='h-padding-l-tiny ArrowSprite-w7d9ld-0 hiyEuV']");
-        Select select = new Select(element);
-        select.selectByVisibleText("Sign In");
-        sleepFor(5);
-*/
 
-       /*clickOnElementByXpath("//a[@id='account']//span[@class='h-padding-l-tiny ArrowSprite-w7d9ld-0 hiyEuV']");
-       sleepFor(3);
-       clickOnElementByXpath("//div[contains(text(),'Sign in')]");*/
+        clickOnElementByXpath("//nav[@id='headerMain']//a[@id='account']");
+        sleepFor(3);
+        clickOnElementByXpath("//div[contains(text(),'Sign in')]");
+        sleepFor(5);
+        typeOnElementById("username","balmulaiki26@gmail.com");
+        typeOnElementById("password","1235f6rrrr");
+        clickOnElementByXpath("/html//button[@id='login']");
 
 
     }
@@ -85,4 +84,11 @@ public void clickOnCategories(){
         sleepFor(3);
         TestLogger.log("Desk is clickable");
 }
+
+public void clickOnDropDown(){
+        clickOnElementByXpath("/html/body/div[1]/div/div[3]/div[2]/nav/a[7]/span[2]/svg");
+        TestLogger.log("sign in is clickable");
+        sleepFor(4);
+}
+
 }
