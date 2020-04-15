@@ -7,7 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Generic" />
-        <module name="Expedia" />
+        <module name="Ebay" />
+        <module name="CitiBank" />
+        <module name="Target" />
+        <module name="Bestbuy" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

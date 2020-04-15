@@ -31,27 +31,7 @@ import java.util.concurrent.TimeUnit;
 public class CommonAPI {
     public static WebDriver driver;
     public static ExtentReports extent;
-    public static String sauceUserName = "balmulaiki666";
-    public static String sauceKey = "81d60bae-c89f-46ae-8545-1ea87b5769da";
-    public static String browserStacKUserName = "billalalmulaiki1";
-    public static String browserStackKey = "3JWx7bSpb8sqm1BdqwsS";
-    //public static String SAUCE_URL="https://balmulaiki666:81d60bae-c89f-46ae-8545-1ea87b5769da@ondemand.saucelabs.com:80/wd/hub";
-    //public static String BROWSERSTACK_URL="@hub-cloud.browserstack.com:80/wd/hub"
-//https:// +username + : +key +specific url for cloud
-    public static String SAUCE_URL = "https://peoplentech1234:f8195613-4319-4b3a-8ebc-e02c512ee521@ondemand.saucelabs.com:80/wd/hub";
-    public static String BROWERSTACK_URL = "@hub-cloud.browserstack.com:80/wd/hub";
 
-    /**
-     * @param platform       -
-     * @param url            -
-     * @param browser        -
-     * @param cloud          -
-     * @param browserVersion -
-     * @param envName        -
-     * @return
-     * @throws MalformedURLException
-     * @Parameters - values are coming from the runner.xml file of the project modules
-     */
 
 
     @Parameters({"platform", "url", "browser", "cloud", "browserVersion", "envName"})
@@ -101,14 +81,9 @@ public class CommonAPI {
         desiredCapabilities.setCapability("os", platform);
         desiredCapabilities.setCapability("os_version", "Mojave");
         desiredCapabilities.setCapability("resolution", "1600x1200");
-        if (envName.equalsIgnoreCase("suacelabs")) {
-            desiredCapabilities.setCapability("resolution", "1024x768");
-            driver = new RemoteWebDriver(new URL(SAUCE_URL), desiredCapabilities);
-        } else if (envName.equalsIgnoreCase("browserstack")) {
-            driver = new RemoteWebDriver(new URL(BROWERSTACK_URL), desiredCapabilities);
 
 
-        }
+
 
 
         return driver;
@@ -242,6 +217,7 @@ public class CommonAPI {
         WebElement element = driver.findElement(By.xpath(locator));
         return element;
     }
+
 
     public void testDragNdDrop() {
         sleepFor(2);

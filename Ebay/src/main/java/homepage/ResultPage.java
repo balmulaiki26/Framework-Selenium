@@ -1,0 +1,17 @@
+package homepage;
+
+import base.CommonAPI;
+import org.openqa.selenium.WebElement;
+import org.testng.Assert;
+import report.TestLogger;
+
+public class ResultPage extends CommonAPI {
+
+     public void validateSearchPageDisplayed(){
+
+          WebElement element = getElement("//div[@id='x-refine__group_1__0']//ul[@class='x-refine__main__value']");
+          Assert.assertEquals(element.isDisplayed(), true, "element isn't displayed");
+          TestLogger.log("search result panel is displayed : " + element.isDisplayed());
+
+     }
+}
